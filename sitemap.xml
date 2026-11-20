@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://tokenwala.co/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://tokenwala.co/"/>
+    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://tokenwala.co/hi/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokenwala.co/"/>
+  </url>
+  <url>
+    <loc>https://tokenwala.co/hi/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://tokenwala.co/"/>
+    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://tokenwala.co/hi/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokenwala.co/"/>
+  </url>
+  <url><loc>https://tokenwala.co/contact.html</loc><lastmod>2026-10-20</lastmod></url>
+  <url><loc>https://tokenwala.co/privacy.html</loc><lastmod>2026-10-20</lastmod></url>
+  <url><loc>https://tokenwala.co/terms.html</loc><lastmod>2026-10-20</lastmod></url>
+  <url><loc>https://tokenwala.co/delete-account.html</loc><lastmod>2026-11-13</lastmod></url>
+  <url><loc>https://tokenwala.co/refund.html</loc></url>
+</urlset>

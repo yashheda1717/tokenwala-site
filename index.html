@@ -1,0 +1,499 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Tokenwala — Ek token, poora mela.</title>
+<meta name="description" content="Digital tokens for melas, fun fairs, society Navratri and Ganpati, school fairs, college fests and canteens. Guests top up by UPI or cash and pay every stall with a scan. Start free.">
+<link rel="canonical" href="https://tokenwala.co/">
+<link rel="alternate" hreflang="en-IN" href="https://tokenwala.co/">
+<link rel="alternate" hreflang="hi-IN" href="https://tokenwala.co/hi/">
+<link rel="alternate" hreflang="x-default" href="https://tokenwala.co/">
+<meta name="theme-color" content="#1B0B16">
+<link rel="icon" href="/favicon.ico" sizes="32x32">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Tokenwala">
+<meta property="og:locale" content="en_IN">
+<meta property="og:locale:alternate" content="hi_IN">
+<meta property="og:url" content="https://tokenwala.co/">
+<meta property="og:title" content="Tokenwala — Ek token, poora mela.">
+<meta property="og:description" content="Mela ka token, ab phone pe. Top up by UPI or cash, pay every stall with a scan, get leftovers back.">
+<meta property="og:image" content="https://tokenwala.co/assets/og/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Tokenwala ticket logo on a festive dark background with bunting and a giant wheel. Ek token, poora mela.">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preload" href="/assets/fonts/geist-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/site.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+    <symbol id="i-scan" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 8V5a1 1 0 0 1 1-1h3M16 4h3a1 1 0 0 1 1 1v3M20 16v3a1 1 0 0 1-1 1h-3M8 20H5a1 1 0 0 1-1-1v-3"/><path d="M8 9h3v3H8zM13 13h3v3h-3zM13 9h3M8 15h2"/></symbol>
+    <symbol id="i-topup" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="6" width="18" height="13" rx="3"/><path d="M3 10h18M12 13v4M10 15h4"/></symbol>
+    <symbol id="i-speaker" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9.5h3.5L12 5.5v13l-4.5-4H4z"/><path d="M15.5 9a4 4 0 0 1 0 6M18 6.5a7.5 7.5 0 0 1 0 11"/></symbol>
+    <symbol id="i-bolt" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 3L5 13.5h6L10 21l8-10.5h-6z"/></symbol>
+    <symbol id="i-family" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="7.5" r="2.8"/><circle cx="17" cy="9.5" r="2.2"/><path d="M3 19.5c.5-3.5 2.6-5.5 5-5.5s4.5 2 5 5.5M13.5 19.5c.4-2.6 1.8-4 3.5-4s3.1 1.4 3.5 4"/></symbol>
+    <symbol id="i-nfc" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="8" width="11" height="8" rx="4"/><path d="M17 8.5a5 5 0 0 1 0 7M19.5 6a8.5 8.5 0 0 1 0 12"/></symbol>
+    <symbol id="i-offline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3l18 18M8.5 16.5a5 5 0 0 1 5.6-.9M5 12.8a10 10 0 0 1 4.2-2.5M2 9a14 14 0 0 1 4-2.6M14.5 10.4A10 10 0 0 1 19 12.8M11 6a14 14 0 0 1 11 3"/><circle cx="12" cy="19.5" r=".8" fill="currentColor"/></symbol>
+    <symbol id="i-refund" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12a8 8 0 1 0 2.4-5.7L4 8.6"/><path d="M4 4v4.6h4.6M12 8v4.5l3 1.8"/></symbol>
+    <symbol id="i-chart" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4v16h16"/><path d="M8 15v-3M12 15V8M16 15v-5M20 6l-3 3"/></symbol>
+    <symbol id="i-poster" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 8V3h10v5"/><rect x="3" y="8" width="18" height="9" rx="2"/><path d="M7 14h10v7H7z"/></symbol>
+    <symbol id="i-cash" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="6" width="19" height="12" rx="2.5"/><circle cx="12" cy="12" r="2.6"/><path d="M6 9.5v.01M18 14.5v.01"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7.5 3v5.5c0 4.6-3.2 8.2-7.5 9.5-4.3-1.3-7.5-4.9-7.5-9.5V6z"/><path d="M8.8 12l2.3 2.3 4.2-4.6"/></symbol>
+    <symbol id="i-bank" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9.5L12 4l9 5.5M5 10v8M9.7 10v8M14.3 10v8M19 10v8M3 20.5h18"/></symbol>
+    <symbol id="i-lang" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3z"/></symbol>
+    <symbol id="i-info" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.5v.01"/></symbol>
+    <symbol id="i-wheel" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="10" r="7"/><path d="M12 3v14M5 10h14M7 5l10 10M17 5L7 15M9 21l3-4 3 4M7 21h10"/></symbol>
+    <symbol id="i-flag" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 21V4M5 4h12l-2.5 4L17 12H5"/></symbol>
+    <symbol id="i-school" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 9L12 4.5 21.5 9 12 13.5z"/><path d="M6.5 11v4.5c1.5 1.5 3.5 2.3 5.5 2.3s4-.8 5.5-2.3V11M21.5 9v5"/></symbol>
+    <symbol id="i-music" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5.5l11-2V16"/><circle cx="6.5" cy="18" r="2.5"/><circle cx="17.5" cy="16" r="2.5"/></symbol>
+    <symbol id="i-plate" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5.5"/><path d="M3 4v6a2 2 0 0 0 2 2v8M5 4v4M21 4c-1.7 0-2.5 2-2.5 5s.8 3 2.5 3v8"/></symbol>
+    <symbol id="i-cup" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9h13v5a5 5 0 0 1-5 5H9a5 5 0 0 1-5-5zM17 10.5h1.5a2.5 2.5 0 0 1 0 5H17M8 3.5c-.6.8-.6 1.7 0 2.5M12 3.5c-.6.8-.6 1.7 0 2.5"/></symbol>
+    <symbol id="i-diya" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 14c2.5 4 15.5 4 18 0zM12 4c1.6 2 2 3.5 2 4.5a2 2 0 0 1-4 0c0-1 .4-2.5 2-4.5zM8 20h8"/></symbol>
+  </defs>
+</svg>
+
+<header class="site-header">
+  <nav class="wrap nav" aria-label="Main">
+    <a class="nav__logo" href="/" aria-label="Tokenwala home"><img src="/assets/brand/lockup-horizontal-on-ink.svg" alt="Tokenwala" width="160" height="30"></a>
+    <ul class="nav__links" id="nav-links">
+      <li><a href="#how">How it works</a></li>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#organizers">Organizers</a></li>
+      <li><a href="#pricing">Pricing</a></li>
+      <li><a href="#faq">FAQ</a></li>
+    </ul>
+    <div class="nav__end">
+      <a class="lang" href="/hi/" hreflang="hi" lang="hi"><span class="sr-only">Read this page in Hindi: </span>हिंदी</a>
+      <a class="btn" href="/organizer">Start free</a>
+      <button class="menu-btn" type="button" aria-expanded="false" aria-controls="nav-links"><span></span><span></span><span></span><b class="sr-only">Menu</b></button>
+    </div>
+  </nav>
+</header>
+
+<main id="main">
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="bulbs bulbs--alt" aria-hidden="true"></div>
+    <div class="wrap hero__grid">
+      <div>
+        <p class="eyebrow">Digital tokens for melas, fairs &amp; canteens</p>
+        <h1 id="hero-title">Ek token, <span class="hl">poora mela.</span></h1>
+        <p class="hero__tag">Mela ka token, ab phone pe.</p>
+        <p class="lede">Guests top up once by UPI or cash and pay every stall with a scan. Stalls hear “₹80 received”. You watch the whole ground live — and leftover balance goes back on its own.</p>
+        <div class="hero__cta">
+          <a class="btn btn--lg" href="/organizer">Start free <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          <a class="btn btn--ghost btn--lg" href="#how">See how it works</a>
+        </div>
+        <ul class="hero__trust">
+          <li><svg aria-hidden="true"><use href="#i-bank"/></svg>Money settles in your own gateway account</li>
+          <li><svg aria-hidden="true"><use href="#i-offline"/></svg>Stalls keep working offline</li>
+          <li><svg aria-hidden="true"><use href="#i-lang"/></svg>English, हिंदी, मराठी</li>
+        </ul>
+      </div>
+      <div class="hero__art">
+        <div class="hero__wheel" aria-hidden="true"><img src="/assets/brand/wheel-on-ink.svg" alt="" width="560" height="560"></div>
+        <div class="phone hero__phone">
+          <img src="/assets/img/app-wallet.webp" width="540" height="1247" alt="Tokenwala wallet screen: three event passes stacked like cards, ₹1,830 total balance, buttons for Pay, Top up, Quick Pay and Family, and recent payments to Kulfi Wala, Games Zone and Pav Bhaji Corner." fetchpriority="high">
+        </div>
+        <div class="float float--a chip" aria-hidden="true">
+          <span class="chip__ic"><svg><use href="#i-speaker"/></svg></span>
+          <span><b>“₹80 received”</b><small>Kulfi Wala · spoken aloud</small></span>
+        </div>
+        <div class="float float--b chip chip--pink" aria-hidden="true">
+          <span class="chip__ic"><svg><use href="#i-topup"/></svg></span>
+          <span><b>+₹500 topped up</b><small>UPI · Navratri Mela pass</small></span>
+        </div>
+        <img class="hero__tikku" src="/assets/brand/tikku-wave.svg" alt="" width="150" height="150">
+      </div>
+    </div>
+  </section>
+
+  <div class="ticker" aria-hidden="true">
+    <div class="ticker__track">
+      <span>Navratri garba</span><span>Ganpati utsav</span><span>School fun fair</span><span>College fest</span><span>Diwali mela</span><span>Food festival</span><span>Office canteen</span><span>Restaurant passes</span>
+      <span>Navratri garba</span><span>Ganpati utsav</span><span>School fun fair</span><span>College fest</span><span>Diwali mela</span><span>Food festival</span><span>Office canteen</span><span>Restaurant passes</span>
+    </div>
+  </div>
+
+  <section class="section" id="how" aria-labelledby="how-title">
+    <div class="wrap">
+      <div class="section__head section__head--center">
+        <p class="eyebrow">How it works</p>
+        <h2 id="how-title">Three steps. No paper tokens, no change, no queue at the cash box.</h2>
+      </div>
+      <ol class="steps" role="list">
+        <li class="step">
+          <img src="/assets/brand/tikku-happy.svg" alt="" width="92" height="92">
+          <i class="notch notch--l" aria-hidden="true"></i><i class="notch notch--r" aria-hidden="true"></i>
+          <h3>Top up once</h3>
+          <p>Guests scan the event poster and add money by UPI, or pay cash at the counter. Family members get their own sub-passes.</p>
+        </li>
+        <li class="step">
+          <img src="/assets/brand/tikku-paid.svg" alt="" width="92" height="92">
+          <i class="notch notch--l" aria-hidden="true"></i><i class="notch notch--r" aria-hidden="true"></i>
+          <h3>Scan and pay</h3>
+          <p>At any stall, scan the stall’s QR or show yours. Tap an NFC band if you have one. The stall hears “₹80 received” in a second.</p>
+        </li>
+        <li class="step">
+          <img src="/assets/brand/tikku-wink.svg" alt="" width="92" height="92">
+          <i class="notch notch--l" aria-hidden="true"></i><i class="notch notch--r" aria-hidden="true"></i>
+          <h3>Leftover goes back</h3>
+          <p>When the mela closes, unused balance is refunded to the UPI it came from — or donated, as the organizer announced up front.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="section section--ink" id="features" aria-labelledby="features-title">
+    <div class="wrap">
+      <div class="section__head">
+        <p class="eyebrow">Features</p>
+        <h2 id="features-title">Built for a crowded ground on a Saturday night.</h2>
+        <p class="lede">Weak network, loud music, a thousand guests and forty stalls. Every feature here exists because a real mela needs it.</p>
+      </div>
+      <div class="features">
+        <article class="feature feature--wide">
+          <span class="feature__ic"><svg aria-hidden="true"><use href="#i-scan"/></svg></span>
+          <h3>Scan either way</h3>
+          <p>Guests scan the stall’s QR poster, or the stall scans the guest’s QR. The guest code rotates every 30 seconds and works once, so a screenshot is useless to anyone else.</p>
+        </article>
+        <article class="feature">
+          <span class="feature__ic"><svg aria-hidden="true"><use href="#i-topup"/></svg></span>
+          <h3>UPI or cash top-ups</h3>
+          <p>Any UPI app at the poster, or cash at the counter with a drawer count at the end of the shift.</p>
+        </article>
+        <article class="feature">
+          <span class="feature__ic"><svg aria-hidden="true"><use href="#i-speaker"/></svg></span>
+          <h3>“₹80 received”</h3>
+          <p>Every payment is announced aloud on the stall phone, in English, Hindi or Marathi.</p>
+        </article>
+        <article class="feature">
+          <span class="feature__ic"><svg aria-hidden="true"><use href="#i-bolt"/></svg></span>
+          <h3>Quick Pay</h3>
+          <p>Skip approvals for small payments for a few hours. Bigger ones still ask for Face ID, fingerprint or PIN.</p>
+        </article>
+        <article class="feature">
+          <span class="feature__ic"><svg aria-hidden="true"><use href="#i-family"/></svg></span>
+          <h3>Family passes</h3>
+          <p>Give each child a sub-pass with a daily limit. Freeze it, top it up or move money between passes.</p>
+        </article>
+        <article class="feature">
+          <span class="feature__ic"><svg aria-hidden="true"><use href="#i-nfc"/></svg></span>
+          <h3>NFC bands</h3>
+          <p>Secure wristbands for kids and rides. Tap the stall phone to pay — no phone needed.</p>
+        </article>
+        <article class="feature">
+          <span class="feature__ic"><svg aria-hidden="true"><use href="#i-offline"/></svg></span>
+          <h3>Offline stalls</h3>
+          <p>Network gone? Stalls keep charging from a signed snapshot with safe caps, and sync when it’s back.</p>
+        </article>
+        <article class="feature">
+          <span class="feature__ic"><svg aria-hidden="true"><use href="#i-refund"/></svg></span>
+          <h3>Leftover refunds</h3>
+          <p>Refund to source, donate or forfeit — chosen before the event and shown to guests before they top up.</p>
+        </article>
+        <article class="feature">
+          <span class="feature__ic"><svg aria-hidden="true"><use href="#i-chart"/></svg></span>
+          <h3>Live dashboard</h3>
+          <p>Top-ups, sales by stall and by hour, low-balance guests — every number opens the transactions behind it.</p>
+        </article>
+        <article class="feature">
+          <span class="feature__ic"><svg aria-hidden="true"><use href="#i-poster"/></svg></span>
+          <h3>Posters, ready to print</h3>
+          <p>Event posters, stall pay QRs, A5 tent cards and A3 banners, in the languages you choose.</p>
+        </article>
+        <article class="feature">
+          <span class="feature__ic"><svg aria-hidden="true"><use href="#i-cash"/></svg></span>
+          <h3>No phone? No problem</h3>
+          <p>Printed QR cash cards from the counter, protected by a PIN, for elders and guests without smartphones.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="uses" aria-labelledby="uses-title">
+    <div class="wrap">
+      <div class="section__head">
+        <p class="eyebrow">Where it works</p>
+        <h2 id="uses-title">One app for every kind of mela — and the canteen after.</h2>
+      </div>
+      <div class="uses">
+        <article class="tkt use">
+          <div class="tkt__body"><p class="use__kicker">Fun fairs &amp; melas</p><h3>Diwali mela, food festivals</h3><p>Rides, games and forty food stalls on one token. No cash box at every counter.</p></div>
+          <div class="tkt__stub"><svg class="ic" aria-hidden="true"><use href="#i-wheel"/></svg><span class="admit">Admit all</span></div>
+        </article>
+        <article class="tkt use use--pink">
+          <div class="tkt__body"><p class="use__kicker">Housing societies</p><h3>Navratri &amp; Ganpati</h3><p>Garba nights and ten days of utsav stalls. One pass per family, with sub-passes for the kids.</p></div>
+          <div class="tkt__stub"><svg class="ic" aria-hidden="true"><use href="#i-diya"/></svg><span class="admit">Admit all</span></div>
+        </article>
+        <article class="tkt use">
+          <div class="tkt__body"><p class="use__kicker">Schools</p><h3>School fun fairs</h3><p>Parents load money, children pay with a band or card. Daily limits, live spend alerts, no lost coins.</p></div>
+          <div class="tkt__stub"><svg class="ic" aria-hidden="true"><use href="#i-school"/></svg><span class="admit">Admit all</span></div>
+        </article>
+        <article class="tkt use use--ink">
+          <div class="tkt__body"><p class="use__kicker">Colleges</p><h3>College fests</h3><p>Pro-nights, food courts and merch stalls. Student volunteers run counters from their own phones.</p></div>
+          <div class="tkt__stub"><svg class="ic" aria-hidden="true"><use href="#i-music"/></svg><span class="admit">Admit all</span></div>
+        </article>
+        <article class="tkt use">
+          <div class="tkt__body"><p class="use__kicker">Outlet mode</p><h3>Restaurants &amp; cafés</h3><p>Prepaid passes, table QR codes, stamp cards and offers that bring guests back.</p></div>
+          <div class="tkt__stub"><svg class="ic" aria-hidden="true"><use href="#i-plate"/></svg><span class="admit">Admit all</span></div>
+        </article>
+        <article class="tkt use use--pink">
+          <div class="tkt__body"><p class="use__kicker">Outlet mode</p><h3>Office &amp; campus canteens</h3><p>Employer coupon programs load each member monthly, with statements for every counter.</p></div>
+          <div class="tkt__stub"><svg class="ic" aria-hidden="true"><use href="#i-cup"/></svg><span class="admit">Admit all</span></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--tint" aria-label="For organizers, stalls and guests">
+    <div class="wrap">
+      <div class="split" id="organizers">
+        <div class="split__copy">
+          <p class="eyebrow">For organizers</p>
+          <h2>Run the whole ground from one screen.</h2>
+          <ul class="ticks">
+            <li><span><b>Set up in minutes.</b> Name the event, pick dates and finishes, invite stalls with one code and approve each one.</span></li>
+            <li><span><b>Your money, your account.</b> Top-ups land in your own Razorpay or Cashfree account. Tokenwala never holds it.</span></li>
+            <li><span><b>See it live.</b> Sales by stall and hour, cash drawers, refunds and low-balance guests.</span></li>
+            <li><span><b>Close cleanly.</b> Settlement statements with commission, payouts, CSV export and automatic leftover refunds.</span></li>
+            <li><span><b>Extras that delight.</b> Sponsors, a verifiable lucky draw on the big screen, and a team with owner, admin and cashier roles.</span></li>
+          </ul>
+          <a class="btn" href="/organizer">Create your event <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        </div>
+        <div class="split__art split__art--org">
+          <div class="browser">
+            <div class="browser__bar" aria-hidden="true"><i></i><i></i><i></i><span class="browser__url">tokenwala.co/organizer</span></div>
+            <img src="/assets/img/org-stalls.webp" width="1280" height="800" loading="lazy" alt="Organizer dashboard for Shanti Nagar Navratri Mela 2026, showing the stalls list with one stall waiting for approval, commission rates, gross sales and the invite code MELA 2026.">
+          </div>
+          <div class="phone"><img src="/assets/img/app-stall-payqr.webp" width="540" height="1247" loading="lazy" alt="A stall's pay QR code screen with a Print poster button."></div>
+        </div>
+      </div>
+
+      <div class="split split--rev" id="stalls">
+        <div class="split__copy">
+          <p class="eyebrow">For stalls</p>
+          <h2>Hear every sale. Count nothing at night.</h2>
+          <ul class="ticks">
+            <li><span><b>Menu tiles or a keypad.</b> Tap Pav Bhaji × 2, or type any amount, then scan.</span></li>
+            <li><span><b>Voice alerts.</b> “₹80 received” the moment money arrives — no squinting at screens.</span></li>
+            <li><span><b>Today at a glance.</b> Sales by hour, stock alerts, and undo within 15 minutes.</span></li>
+            <li><span><b>Many helpers, one stall.</b> Add staff phones; each scan shows who took it.</span></li>
+          </ul>
+        </div>
+        <div class="split__art">
+          <div class="phone"><img src="/assets/img/app-stall-received.webp" width="540" height="1247" loading="lazy" alt="Stall app showing a '₹100 received' banner and today's sales of ₹440 from 4 payments, with a sales-by-hour chart."></div>
+          <div class="phone phone--sm"><img src="/assets/img/app-stall-today.webp" width="540" height="1247" loading="lazy" alt="Stall Today tab listing recent payments with receipt codes and an Undo option."></div>
+        </div>
+      </div>
+
+      <div class="split" id="guests">
+        <div class="split__copy">
+          <p class="eyebrow">For guests</p>
+          <h2>Your whole mela in your pocket.</h2>
+          <ul class="ticks">
+            <li><span><b>No app needed to start.</b> Scan the poster and a web wallet opens; install the app later if you like.</span></li>
+            <li><span><b>Live receipts.</b> A moving receipt the stall can trust — not a screenshot.</span></li>
+            <li><span><b>Safe by default.</b> Approve bigger payments with Face ID, fingerprint or PIN. Freeze a lost phone from the web.</span></li>
+            <li><span><b>Get it back.</b> Unused balance returns to your UPI when the event closes, where the organizer offers refunds.</span></li>
+          </ul>
+        </div>
+        <div class="split__art">
+          <img class="tikku" src="/assets/brand/tikku-happy.svg" alt="" width="110" height="110">
+          <div class="phone"><img src="/assets/img/app-pay-menu.webp" width="540" height="1247" loading="lazy" alt="Pay a stall screen: menu of Pav Bhaji, Butter Pav Bhaji, Masala Pav and Extra Pav with quantities, and a 'Slide to pay ₹175' button."></div>
+          <div class="phone phone--sm"><img src="/assets/img/app-receipt.webp" width="540" height="1247" loading="lazy" alt="Live receipt: paid ₹175 to Pav Bhaji Corner, receipt code 8X2D, with a running clock."></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="pricing" aria-labelledby="pricing-title">
+    <div class="wrap">
+      <div class="section__head section__head--center">
+        <span class="launch"><svg width="16" height="16" aria-hidden="true"><use href="#i-info"/></svg>Launch pricing — subject to change</span>
+        <h2 id="pricing-title">Free for your first mela. Simple after that.</h2>
+        <p class="lede">Guests pay nothing to Tokenwala. Organizers pick a plan.</p>
+      </div>
+      <div class="plans">
+        <article class="plan">
+          <div class="plan__top">
+            <h3 class="plan__name">Free</h3>
+            <p class="plan__price"><b>₹0</b><span>Try it on a real event</span></p>
+          </div>
+          <div class="plan__perf" aria-hidden="true"></div>
+          <ul>
+            <li>1 event</li>
+            <li>Up to 5 stalls</li>
+            <li>Up to ₹50,000 in top-ups</li>
+            <li>Scan &amp; Pay, family passes, offline</li>
+          </ul>
+          <a class="btn btn--ghost" href="/organizer">Start free</a>
+        </article>
+        <article class="plan plan--feat">
+          <div class="plan__top">
+            <h3 class="plan__name">Mela <span class="plan__badge">14-day trial</span></h3>
+            <p class="plan__price"><b>₹2,999</b><span>per event</span></p>
+          </div>
+          <div class="plan__perf" aria-hidden="true"></div>
+          <ul>
+            <li>Up to 50 stalls</li>
+            <li>Live dashboard and insights</li>
+            <li>Posters, settlement and payouts</li>
+            <li>Leftover refunds at close</li>
+          </ul>
+          <a class="btn btn--marigold" href="/organizer">Start free trial</a>
+        </article>
+        <article class="plan">
+          <div class="plan__top">
+            <h3 class="plan__name">Outlet</h3>
+            <p class="plan__price"><b>₹999</b><span>per month</span></p>
+          </div>
+          <div class="plan__perf" aria-hidden="true"></div>
+          <ul>
+            <li>Up to 5 counters</li>
+            <li>Prepaid passes and table QR</li>
+            <li>Employer coupon programs</li>
+            <li>Monthly statements</li>
+          </ul>
+          <a class="btn btn--ghost" href="/organizer">Start free</a>
+        </article>
+        <article class="plan">
+          <div class="plan__top">
+            <h3 class="plan__name">Pro</h3>
+            <p class="plan__price"><b>₹24,999</b><span>per year</span></p>
+          </div>
+          <div class="plan__perf" aria-hidden="true"></div>
+          <ul>
+            <li>Unlimited events</li>
+            <li>Up to 200 stalls</li>
+            <li>Team roles and audit log</li>
+            <li>For organizers who run many melas</li>
+          </ul>
+          <a class="btn btn--ghost" href="/contact.html">Talk to us</a>
+        </article>
+      </div>
+      <p class="price-note"><svg aria-hidden="true"><use href="#i-shield"/></svg><span><strong>Launch pricing — subject to change.</strong> Prices exclude GST. Guest top-ups go straight into your own payment-gateway account, and the gateway’s own fees apply. Any platform fee on a plan is invoiced monthly and never deducted from your takings.</span></p>
+    </div>
+  </section>
+
+  <section class="section section--tint" id="faq" aria-labelledby="faq-title">
+    <div class="wrap">
+      <div class="section__head section__head--center">
+        <p class="eyebrow">FAQ</p>
+        <h2 id="faq-title">Questions organizers ask us</h2>
+      </div>
+      <div class="faq">
+        <details>
+          <summary>Is this allowed under RBI rules?</summary>
+          <div class="a">
+            <p>Tokenwala is built as a <strong>closed-loop</strong> token system. A pass works only at the stalls or counters of one event or outlet. It can’t be withdrawn as cash, sent to a bank, or spent anywhere else, and it earns no interest.</p>
+            <p>Guest top-ups are paid straight into the <strong>organizer’s own</strong> Razorpay or Cashfree account. Tokenwala is the software; it never holds, pools or settles guest money. RBI’s rules on prepaid payment instruments treat closed-system instruments very differently from open wallets.</p>
+            <p>We are having this structure reviewed by a fintech lawyer before live launch, and organizers remain responsible for their own GST, permissions and local rules. This answer is general information, not legal advice.</p>
+          </div>
+        </details>
+        <details>
+          <summary>What happens to money left on a pass?</summary>
+          <div class="a">
+            <p>The organizer chooses a leftover policy before the event, and guests see it before they top up:</p>
+            <ul>
+              <li><strong>Refund</strong> — sent back automatically to the UPI or card it came from, newest top-ups first. Cash top-ups are refunded at the counter.</li>
+              <li><strong>Donate</strong> — to a cause the organizer names.</li>
+              <li><strong>Forfeit</strong> — only if clearly announced.</li>
+              <li><strong>Keep until expiry</strong> — for restaurant and canteen passes, the balance stays usable until the pass expires.</li>
+            </ul>
+          </div>
+        </details>
+        <details>
+          <summary>What if the network drops at the ground?</summary>
+          <div class="a">
+            <p>Stalls keep taking payments. The stall phone works from a signed snapshot of passes with safe per-pass caps, and everything syncs as soon as signal returns. Offline payments are stored on the phone in a real database, so clearing the app can’t lose them.</p>
+            <p>If the guest’s phone is the one offline, they simply show their pass QR and the stall scans it.</p>
+          </div>
+        </details>
+        <details>
+          <summary>Do guests need to install an app?</summary>
+          <div class="a"><p>No. Scanning the event poster opens a web wallet that can top up, pay, show the balance and receive refunds. The Android and iPhone app adds Face ID and fingerprint approvals, Quick Pay and wallet passes.</p></div>
+        </details>
+        <details>
+          <summary>What about children and guests without smartphones?</summary>
+          <div class="a"><p>Parents can create family sub-passes with daily limits and blocked items. Children can pay with an NFC band. The cash counter can print QR cash cards, protected by a PIN, for anyone without a phone.</p></div>
+        </details>
+        <details>
+          <summary>How do stalls get their money?</summary>
+          <div class="a"><p>Stalls see every sale live. At close, Tokenwala prepares a settlement statement for each stall, with your commission, and you pay out from your own account. Mistakes can be undone within 15 minutes.</p></div>
+        </details>
+        <details>
+          <summary>How safe is it?</summary>
+          <div class="a"><p>Guest QR codes are signed, rotate every 30 seconds and work once. Bigger payments need Face ID, fingerprint or PIN. Quick Pay has caps and switches itself off on a new device or unusual activity. A lost phone can be frozen from the web. Every rupee moves through a double-entry ledger, reconciled nightly against the gateway and cash drawers.</p></div>
+        </details>
+        <details>
+          <summary>Which languages does it speak?</summary>
+          <div class="a"><p>The app runs in English, हिंदी and मराठी, and posters print in the languages you pick. This website is in English and <a href="/hi/" lang="hi">हिंदी</a>.</p></div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--ink" aria-labelledby="quotes-title">
+    <div class="wrap">
+      <div class="section__head">
+        <p class="eyebrow">From the ground</p>
+        <h2 id="quotes-title">Stories from our first melas</h2>
+        <p class="lede">We’re running pilot events now. Real words from organizers, stalls and guests will appear here — these cards are placeholders, not quotes.</p>
+      </div>
+      <div class="quotes">
+        <figure class="quote"><span class="quote__flag">Placeholder</span><blockquote>An organizer’s story will go here after our first pilot event.</blockquote><figcaption><i aria-hidden="true"></i><span>Organizer name · Society, city</span></figcaption></figure>
+        <figure class="quote"><span class="quote__flag">Placeholder</span><blockquote>A stall owner’s words about closing the day without counting cash.</blockquote><figcaption><i aria-hidden="true"></i><span>Stall name · Event</span></figcaption></figure>
+        <figure class="quote"><span class="quote__flag">Placeholder</span><blockquote>A parent’s take on family passes and getting leftover money back.</blockquote><figcaption><i aria-hidden="true"></i><span>Guest name · Event</span></figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta" aria-labelledby="cta-title">
+    <div class="bunting bunting--marigold" aria-hidden="true"></div>
+    <div class="wrap cta__inner">
+      <h2 id="cta-title">Apna mela, ab cashless.</h2>
+      <p>Set up your first event free. Invite stalls with one code, print the posters, open the gates.</p>
+      <a class="btn btn--ink btn--lg" href="/organizer">Start free <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+      <img class="tikku tikku--l" src="/assets/brand/tikku-wow.svg" alt="" width="130" height="130">
+      <img class="tikku" src="/assets/brand/tikku-wave.svg" alt="" width="150" height="150">
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="bulbs" aria-hidden="true"></div>
+  <div class="wrap footer__grid">
+    <div class="footer__brand">
+      <img src="/assets/brand/lockup-horizontal-on-ink.svg" alt="Tokenwala" width="180" height="34" loading="lazy">
+      <p>Event tokens and passes on your phone. Made in India for melas, fairs and canteens.</p>
+    </div>
+    <div>
+      <h2>Product</h2>
+      <ul><li><a href="#how">How it works</a></li><li><a href="#features">Features</a></li><li><a href="#pricing">Pricing</a></li><li><a href="/organizer">Organizer sign-in</a></li></ul>
+    </div>
+    <div>
+      <h2>Company</h2>
+      <ul><li><a href="/contact.html">Contact</a></li><li><a href="#faq">FAQ</a></li><li><a href="/hi/" lang="hi">हिंदी में पढ़ें</a></li></ul>
+    </div>
+    <div>
+      <h2>Legal</h2>
+      <ul><li><a href="/privacy.html">Privacy policy</a></li><li><a href="/terms.html">Terms of use</a></li><li><a href="/refund.html">Cancellation and refunds</a></li><li><a href="/delete-account.html">Delete your account</a></li></ul>
+    </div>
+  </div>
+  <div class="wrap footer__base">
+    <span>© <span data-year>2026</span> Tokenwala. Ek token, poora mela.</span>
+    <span>Tokenwala is software for organizers. It does not hold guest funds.</span>
+  </div>
+</footer>
+<script src="/assets/js/site.js" defer></script>
+</body>
+</html>

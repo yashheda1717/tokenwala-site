@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en" data-kind="s">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Pay stall · Tokenwala</title>
+<meta name="description" content="Pay this stall with your Tokenwala pass.">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#1B0B16">
+<link rel="icon" href="/favicon.ico" sizes="32x32">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Tokenwala">
+<meta property="og:title" content="Pay this stall with Tokenwala">
+<meta property="og:description" content="Pay this stall with your Tokenwala pass.">
+<meta property="og:image" content="https://tokenwala.co/assets/og/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preload" href="/assets/fonts/geist-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/site.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <nav class="wrap nav" aria-label="Main">
+    <a class="nav__logo" href="/" aria-label="Tokenwala home"><img src="/assets/brand/lockup-horizontal-on-ink.svg" alt="Tokenwala" width="160" height="30"></a>
+    <div class="nav__end"><a class="lang" href="/">What is Tokenwala?</a></div>
+  </nav>
+</header>
+<main id="main" class="handoff">
+  <div class="wrap">
+    <div class="handoff__card">
+      <img class="handoff__tikku" src="/assets/brand/tikku-paid.svg" alt="" width="150" height="150">
+
+      <div id="ok">
+        <h1>Pay this stall</h1>
+        <p class="hi-sub" lang="hi">इस स्टॉल को पे करें</p>
+        <p>Pay from your Tokenwala pass. The stall hears “received” the moment it lands.</p>
+        <div class="tkt pass" aria-label="Stall code">
+          <div class="tkt__body">
+            <div class="pass__label">Stall code</div>
+            <div class="pass__code" id="code">…</div>
+          </div>
+          <div class="tkt__stub"><span class="admit">Pay</span></div>
+        </div>
+        <p class="status" id="status" role="status" aria-live="polite"
+           data-opening="Opening the Tokenwala app…"
+           data-fallback="App didn’t open? Use the web wallet — no install needed."
+           data-noapp="The app isn’t installed on this phone. The web wallet works right away."
+           data-ios="Have the app? Tap “Open in the app”. If not, the web wallet works right away."
+           data-desktop="On a computer? Open the web wallet here, or scan the poster with your phone."></p>
+        <div class="actions">
+          <a class="btn btn--lg" id="open-app" href="#">Open in the app</a>
+          <a class="btn btn--marigold btn--lg" id="open-web" href="/w/">Open web wallet</a>
+        </div>
+        <noscript><p class="err">JavaScript is off. Open the web wallet at <a href="/w/" style="color:#FFB224">tokenwala.co/w</a> and enter the code shown on the poster.</p></noscript>
+        <div class="stores" aria-label="Get the app">
+          <a class="store" href="https://play.google.com/store/apps/details?id=in.tokenwala.tokenwala">Get it for Android<small>Play Store · coming soon</small></a>
+          <a class="store" href="#" aria-disabled="true" data-placeholder="app-store-url">Get it for iPhone<small>App Store · coming soon</small></a>
+        </div>
+      </div>
+
+      <div id="bad" hidden>
+        <h1>Pay a stall</h1>
+        <p id="bad-msg" class="err" hidden>That code doesn’t look right. Check the poster and try again.</p>
+        <p>Type the stall code printed under its QR.</p>
+        <form id="code-form" class="code-form" novalidate>
+          <label for="code-input" class="pass__label" style="color:#C9B8C2">Stall code</label>
+          <input id="code-input" name="c" inputmode="text" autocomplete="off" autocapitalize="characters" spellcheck="false" placeholder="e.g. PBC7 K2MQ" aria-describedby="code-hint" required>
+          <p id="code-hint" class="fine" data-err="Codes are 3–64 letters or numbers.">It’s printed under the QR on the stall’s poster.</p>
+          <button class="btn btn--marigold btn--lg" type="submit">Continue</button>
+        </form>
+      </div>
+
+      <p class="fine">Tokenwala is a cashless token wallet for melas, fairs and canteens. <a href="/">Learn more</a> · <a href="/privacy.html">Privacy</a></p>
+    </div>
+  </div>
+</main>
+<script src="/assets/js/handoff.js" defer></script>
+</body>
+</html>

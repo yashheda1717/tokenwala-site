@@ -1,0 +1,10 @@
+# Netlify and Cloudflare Pages. Handoff pages read the code from the URL in JS.
+/e/*   /e/index.html   200
+/s/*   /s/index.html   200
+/t/*   /t/index.html   200
+
+# The organizer web app (/organizer) and web wallet (/w/) are the Flutter web
+# build, deployed separately. Point these at wherever it is hosted, e.g.:
+# /organizer/*   https://app.tokenwala.co/organizer/:splat   200
+# /organizer     https://app.tokenwala.co/organizer          200
+# /w/*           https://app.tokenwala.co/w/:splat           200
