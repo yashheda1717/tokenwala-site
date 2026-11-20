@@ -15,8 +15,11 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokenwala.co/"/>
   </url>
   <url><loc>https://tokenwala.co/contact.html</loc><lastmod>2026-10-20</lastmod></url>
-  <url><loc>https://tokenwala.co/privacy.html</loc><lastmod>2026-10-20</lastmod></url>
-  <url><loc>https://tokenwala.co/terms.html</loc><lastmod>2026-10-20</lastmod></url>
+  <url><loc>https://tokenwala.co/privacy.html</loc><lastmod>2026-11-21</lastmod></url>
+  <url><loc>https://tokenwala.co/terms.html</loc><lastmod>2026-11-21</lastmod></url>
   <url><loc>https://tokenwala.co/delete-account.html</loc><lastmod>2026-11-13</lastmod></url>
-  <url><loc>https://tokenwala.co/refund.html</loc></url>
+  <url><loc>https://tokenwala.co/refund.html</loc><lastmod>2026-11-21</lastmod></url>
+  <url><loc>https://tokenwala.co/pricing.html</loc><lastmod>2026-11-21</lastmod></url>
+  <url><loc>https://tokenwala.co/organizer-terms.html</loc><lastmod>2026-11-21</lastmod></url>
+  <url><loc>https://tokenwala.co/stall-terms.html</loc><lastmod>2026-11-21</lastmod></url>
 </urlset>
