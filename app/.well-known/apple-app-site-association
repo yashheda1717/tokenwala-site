@@ -1,0 +1,21 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": [
+          "7Q94P6B729.in.tokenwala.tokenwala"
+        ],
+        "components": [
+          {
+            "/": "/e/*",
+            "comment": "Event poster: join"
+          },
+          {
+            "/": "/s/*",
+            "comment": "Stall poster: Scan & Pay"
+          }
+        ]
+      }
+    ]
+  }
+}
