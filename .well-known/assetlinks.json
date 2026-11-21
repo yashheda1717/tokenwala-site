@@ -5,7 +5,8 @@
       "namespace": "android_app",
       "package_name": "in.tokenwala.tokenwala",
       "sha256_cert_fingerprints": [
-        "REPLACE_WITH_RELEASE_SIGNING_CERT_SHA256:AA:BB:CC:..."
+        "8F:0C:38:F2:CD:04:0E:51:D8:58:9A:59:9B:A7:EB:99:22:39:3B:4A:9C:E2:2D:19:B8:40:D6:34:CC:A5:93:75",
+        "67:11:87:60:AF:67:40:B7:53:CA:F6:A1:3A:7C:61:86:6D:55:0A:4D:4E:66:27:E4:01:3A:D0:24:84:D8:00:08"
       ]
     }
   }
