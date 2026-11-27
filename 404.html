@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-<script>(function(){var p=location.pathname;if(/^\/(w|organizer|admin|signin)(\/|$)/.test(p)){location.replace('/app/#'+p.replace(/\/$/,'')+location.search);}})();</script>
+<script>(function(){var p=location.pathname;var a=p.match(/^\/app(\/.+)$/);if(a&&!/\.[a-z0-9]+$/i.test(a[1])){location.replace('/app/#'+a[1].replace(/\/$/,'')+location.search);return;}if(/^\/(w|organizer|admin|signin)(\/|$)/.test(p)){location.replace('/app/#'+p.replace(/\/$/,'')+location.search);}})();</script>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Page not found · Tokenwala</title>
